@@ -1,0 +1,1061 @@
+#wrap{
+    width: 100%;
+}
+
+#header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(231, 0, 18);
+}
+#header_in{
+    margin:0 auto;
+    width:1400px; height:120px;
+    display:flex; justify-content:space-between;
+}
+#header_in .logo{
+    padding-top:30px;
+    box-sizing:border-box;
+    width:150px; height:120px;
+}
+#header_in .nav{
+    margin:0 auto;
+    width:600px; height:120px;
+}
+#header_in .nav > ul{
+    padding-top:40px;
+    display:flex; 
+    justify-content:space-between;
+    align-items:center; 
+}
+#header_in .nav > ul li a{
+    display:block;
+    font-size:20px;
+    color:#fff;
+    font-weight:900;
+}
+#header_in .s_mn{
+    width:150px; height:120px;
+}#header_in .s_mn li{
+    float:right;
+    margin-right:15px;
+    margin-top:40px;
+    width:25px;
+}
+
+
+
+
+
+#main{
+    width: 100%;
+}
+#main_wrapper{
+    width: 100%;
+}
+
+#main_wrapper > img:nth-child(1){
+    z-index: -1;
+    position: relative;
+}
+#main_wrapper > img:nth-child(2){
+    position: absolute;
+    width: 300px;
+    height: 650px;
+    top: 50px;
+    left: 100px;
+}
+#main_wrapper > img:nth-child(3){
+    position: absolute;
+    width: 800px;
+    height: 60px;
+    top: 800px;
+    left: 50px;
+}
+#main_wrapper > img:nth-child(4){
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    top: 900px;
+    left: 50px;
+}
+#main_wrapper > img:nth-child(5){
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 900px;
+    right: 100px;
+}
+#main_wrapper > img:nth-child(6){
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    cursor: pointer;
+}
+
+
+#content1{
+    width: 100%;
+    height: 1100px;
+    position: relative;
+}
+#content1 .con1_box{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+   
+}
+#content1 .con1_box img:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+   
+}
+#content1 .con1_box img:nth-child(2){
+    position: absolute;
+}
+#content1 .con1_box img:nth-child(3){
+    position: absolute;
+    top: -120px;
+    left: 0;
+    z-index: -2;
+    
+}
+#content1 .con1_box img:nth-child(4){
+    position: absolute;
+    width: 450px;
+    top: 300px;
+    left: 600px;
+    z-index: -1;
+}
+
+/*=========================컨텐츠 2 모드====================================*/
+#content2{
+    width: 100%;
+    height: 800px;
+}
+#con2_mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#con2_mode .con2_imgbox{
+    width: 800px;
+    height: 600px;
+    background-color: cadetblue;
+    background:url(../image/co2_mode.jpg) no-repeat;
+    background-size: contain;
+    
+}
+#con2_mode .con2_textbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border-left: 7px solid red;
+    position: relative;
+   
+}
+#con2_mode .con2_ltext{
+    width: 200px;
+    height: 50px;
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/03-mode/h-01.svg) no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+}
+#con2_mode .con2_rtext h3{
+    font-size: 30px;
+    color: #000;
+}
+#con2_mode .con2_rtext{
+    width: 400px;
+    height: 70px;
+    margin-right: 300px;
+    box-sizing: border-box;
+}
+#con2_mode .con2_rtext h3{
+    font-size: 30px;
+    color: #000;
+}
+#con2_mode .con2_rtext p{
+    position: absolute;
+    top: 80px;
+    width: 700px;
+    height: 30px;
+    font-size: 15px;
+    color: #222;
+    
+}
+/*=========================컨텐츠 3 모드====================================*/
+#content3{
+    width: 100%;
+    height: 800px;
+}
+#con3_mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+#con3_mode .con3_imgbox{
+    width: 1200px;
+    height: 600px;
+    background-color: cadetblue;
+    background:url(../image/캡처2.PNG) no-repeat  50% 50%;
+    background-size: contain;
+    margin-bottom: 50px;
+    
+}
+#con3_mode .con3_textbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border-left: 7px solid red;
+    position: relative;
+   
+}
+#con3_mode .con3_ltext{
+    width: 200px;
+    height: 50px;
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/03-mode/h-02.svg) no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+}
+#con3_mode .con3_rtext{
+    width: 400px;
+    height: 70px;
+    background-size: contain;
+    margin-right: 300px;
+    box-sizing: border-box;
+}
+#con3_mode .con3_rtext h3{
+    font-size: 30px;
+    color: #000;
+}
+#con3_mode .con3_rtext p{
+    position: absolute;
+    top: 80px;
+    width: 700px;
+    height: 30px;
+    font-size: 15px;
+    color: #222;
+    
+}
+
+
+/*=========================컨텐츠 4 모드====================================*/
+
+#content4{
+    width: 100%;
+    height: 800px;
+}
+#con4_mode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+#con4_mode .con4_imgbox{
+    width: 800px;
+    height: 600px;
+    background-color: cadetblue;
+    background:url(../image/캡처3.png) no-repeat 50% 50%;
+    background-size: contain;
+    margin-bottom: 50px;
+    
+}
+#con4_mode .con4_textbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    border-left: 7px solid red;
+    position: relative;
+   
+}
+#con4_mode .con4_ltext{
+    width: 200px;
+    height: 50px;
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/03-mode/h-03.svg) no-repeat;
+    background-size: contain;
+    margin-left: 50px;
+}
+#con4_mode .con4_rtext{
+    width: 500px;
+    height: 70px;
+    margin-right: 200px;
+    box-sizing: border-box;
+}
+#con4_mode .con4_rtext h3{
+    font-size: 30px;
+    color: #000;
+}
+#con4_mode .con4_rtext p{
+    position: absolute;
+    top: 80px;
+    width: 700px;
+    height: 30px;
+    font-size: 15px;
+    color: #222;
+    
+}
+
+/*컨텐츠 5----------------------------------------------*/
+
+#content5{
+    margin-top: 100px;
+    width: 100%;
+    border-top: 3px solid rgb(230, 229, 229);
+}
+#local_joycon{
+    width: 100%;
+    height: 1340px;
+    padding-bottom: 140px;
+}
+#local_joycon .local_joycon_title{
+    width: 100%;
+    height: 500px;
+    padding-bottom: 120px;
+}
+#local_joycon .local_joycon_imgs{
+
+}
+#local_joycon .local_joycon_imgl{
+    width: 970px;
+    height: 557px;
+    float: left;
+    z-index: 1;
+    margin-left: -300px;
+    background:url(https://www.nintendo.co.kr/hardware/detail/switch/img/05-joycon/title_joycon01.png) no-repeat;
+}
+#local_joycon .local_joycon_imgr{
+    width: 1000px;
+    height: 642px;
+    float: right;
+    z-index: 10;
+    margin-right: -300px;
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/05-joycon/title_joycon02.png)no-repeat;
+}
+#local_joycon .local_joycon_titletext01{
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+}
+#local_joycon .local_joycon_titletext02{
+    width: 100%;
+    height: 66px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#local_joycon .local_joycon_titletext03{
+    margin-top: -0.65em;
+    margin-bottom: 0.35em;
+    width: 590px;
+    height: 108px;
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#local_joycon .local_slide{
+    width: 100%;
+    height: 223px;
+    position: relative;
+}
+
+#local_joycon .slider_clip{
+    position: absolute;
+    z-index: -1;
+    height: 190px;
+    overflow: hidden;
+    display: flex;
+}
+#local_joycon .slider_clip.animated{
+    transition: 0.5s ease-out;
+}
+
+#local_joycon .slider_item{
+    float: left;
+    position: relative;
+    width: 422px;
+    height: 190px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#local_joycon .slider_clip .img1{
+    background:url(https://www.nintendo.co.kr/hardware/detail/switch/img/05-joycon/pic_01.jpg) no-repeat;
+    background-size: contain;
+}
+#local_joycon .slider_clip .img2{
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/05-joycon/pic_02.jpg) no-repeat;
+    background-size: contain;
+}
+#local_joycon .slider_clip .img3{
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/05-joycon/pic_03.jpg)no-repeat;
+    background-size: contain;
+}
+#local_joycon .slider_clip .img4{
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/05-joycon/pic_04.jpg)no-repeat;
+    background-size: contain;
+}
+
+#local_joycon .local_bottom_img{
+    width: 1440px;
+    height: 455px;
+    margin: 0 auto;
+}
+
+#local_joycon .local-joycon_controller{
+    width: 1292px;
+    height: 455px;
+    margin: auto;
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/05-joycon/photo-controller_pc.jpg) no-repeat;
+    background-size: contain;
+}
+#local_joycon .text_box{
+    width: 340px;
+    height: 340px;
+    background-color: red;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 45px;
+}
+#local_joycon .text_box h3{
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+#local_joycon .text_box p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/*=========================컨텐츠 6 모드====================================*/
+
+#content6{
+    width: 100%;
+    height: 830px;
+    padding-bottom: 120px;
+}
+#con6_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1440px;
+    height: 710px;
+    margin: 0 auto;
+    padding: 0 74px;
+}
+#con6_inner .con6_imgbox{
+    width: 770px;
+    height: 710px;
+    background-color: brown;
+    background: url(https://www.nintendo.co.kr/hardware/detail/switch/img/06-local-connect/pc_01-pc.jpg)no-repeat;
+    background-size: contain;
+
+}
+#con6_inner .text_box{
+    width: 468px;
+    height: 620px;
+}
+#con6_inner .text_box .header{
+    width: 638px;
+    height: 152px;
+    padding: 28px 0;
+    margin-left:-170px;
+    background-color: red;
+    margin-bottom:30px;
+}
+#con6_inner .text_box .header h3{
+    font-size: 38px;
+    color: #fff;
+    text-align: left;
+    padding-left: 30px;
+}
+#con6_inner .text_box .item_box1{
+
+    width: 468px;
+    height: 180px;
+    margin-bottom: 48px;
+}
+#con6_inner .text_box .item_box1 h4{
+    border-left: 10px solid red;
+    font-size: 22px;
+    margin-bottom: 32px;
+    color: #222;
+    padding-left: 20px;
+}
+#con6_inner .text_box .item_box1 p{
+    font-size: 16px;
+    color: #222;
+    line-height: 25px;
+}
+
+
+/* 컨텐츠 7 ==============================================*/
+
+#content7{
+    width: 1440px;
+    height: 2600px;
+    margin: 0 auto;
+}
+#content7 .header{
+    width: 100%;
+    height: 160px;
+    margin-bottom: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+#content7 .header span{
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    padding-top: 40px;
+    border-top: 5px solid red;
+}
+#content7 .item_box_wrap{
+    width: 100%;
+    padding: 0 74px;
+    
+}
+#content7 .item_box_list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1350px;
+    height: 2150px;
+    margin: 0 -30px;
+}
+#content7 .item_box_list .item{
+    width: 380px;
+    height: 550px;
+    margin: 0 30px;
+    padding-bottom: 50px;
+}
+#content7 .item_img{
+    width: 380px;
+    height: 280px;
+    padding-bottom:280px;
+}
+#content7 ul li:nth-child(1) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-navPackage--marioredblue.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(2) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-navPackage--monsterhunter.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(3) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-navPackage-fortnite.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(4) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-navPackage-ring.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(5) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-package--mariokart8_new.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(6) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-package--pokemon_eevee.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(7) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-package--pokemon_pikachu.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(8) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-package--smashbros.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(9) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-pkg_bluered-new.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(10) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-pkg_gray-new.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(11) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-pkg_park-new.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+#content7 ul li:nth-child(12) .item_img{
+    background: url(https://www.nintendo.co.kr/switch/lineup/img/img-navPackage--marioredblue.png)no-repeat 50% 50%;
+    background-size: contain;
+}
+
+
+#content7 .text_box{
+    width: 100%;
+    height: 200px;
+  
+}
+#content7 .text_box .software_box{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+#content7 .text_box h3{
+    width: 100%;
+    height: 20;
+    border-left: 5px solid red;
+    font-size: 13px;
+    padding-left: 10px;
+}
+#content7 .text_box .software_box2{
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    border-left: 5px solid red;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+#content7 .text_box .date_box{
+    width: 100%;
+    height: 48px;
+    padding-bottom: 15px;
+}
+#content7 .date_box .date{
+    font-size: 16px;
+    font-weight: 600;
+}
+#content7 .date_box .ttl{
+    font-size: 13px;
+    font-weight: 600;
+}
+#content7 .date_box .price{
+    font-size: 16px;
+    font-weight: 600;
+}
+#content7 .set_content{
+    width: 100%;
+    height: 15px;
+}
+#content7 .set_content span{
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#content7 .con7_footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content7 .con7_footer:hover{
+    border: 2px solid red;
+}
+#content7 .footerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+    color: #000;
+}
+
+/*컨텐츠 8 =============================================================*/
+
+#content8{
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+#content8 .header{
+    width: 100%;
+    height: 70px;
+    border-top: 2px solid #ccc;
+    margin-bottom: 60px;
+}
+#content8 .header h3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 81px;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+#content8 .header h3 span{
+    padding-top: 20px;
+    border-top: 5px solid red;
+}
+#content8 .con8_itembox{
+    width: 1440px;
+    height: 730px;
+    
+}
+#content8 .itembox_wrap{
+    padding: 0 40px;
+    width: 1120px;
+    margin: 0 auto;
+    
+}
+#content8 .itemmain{
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#content8 .left_switchbox{
+    width: 128px;
+    height: 650px;
+    border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+#content8 .button_box{
+    width: 100%;
+}
+#content8 .button_box li{
+    width: 100%;
+    height: 128px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#content8 .button_box li .ovimg{
+
+}
+
+
+#content8 .button_box li img{
+    width: 128px;
+    height: 128px;
+}
+#content8 .button_box li:nth-child(1){
+    background: url(../image/nav01.png);
+    background-size: contain;
+}
+#content8 .button_box li:nth-child(2){
+    background: url(../image/nav02.png);
+    background-size: contain;
+}
+
+#content8 .button_box li:nth-child(3){
+    background: url(../image/nav03.png);
+    background-size: contain;
+}
+
+#content8 .button_box li:nth-child(4){
+    background: url(../image/nav04.png);
+    background-size: contain;
+}
+
+#content8 .button_box li:nth-child(5){
+    background: url(../image/nav05.png);
+    background-size: contain;
+}
+
+#content8 .ovimg{
+    opacity: 0;
+    transition: all 0.3s;
+}
+#content8 .act{
+    opacity: 1;
+}
+
+#content8 .right_box{
+    width: 880px;
+    height: 550px;
+    box-sizing: border-box;
+    left: 30px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+   
+   
+    
+}
+#content8 .right_boximg{
+    width: 880px;
+    height: 550px;
+    opacity: 1;
+    transition: left 0.4s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#content8 .right_boximg li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 880px;
+    height: 550px;
+    transition: opacity 0.2s;
+    
+}
+#content8 .right_boximg li img{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+#content8 .right_boxbutton{
+    position: absolute;
+    top: 580px;
+    left: 225px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 392px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+#content8 .button_wrap{
+    display: flex;
+    width: 284px;
+    height: 40px;
+    border: 2px solid #ccc;
+}
+
+#content8 .front_btn{
+    padding: 10px 20px;
+    width: 140px;
+    height: 38px;
+    border-right: 2px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#content8 .back_btn{
+    text-align: center;
+    padding: 10px 20px;
+    width: 140px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+#content8 .back_btn:hover{
+    background-color: red;
+    color: #fff;
+}
+
+#content8 .on{
+    opacity: 0;
+}
+#content8 .off{
+    opacity: 0;
+}
+
+#content8 .text_box{
+    margin-top: 20px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+#content8 .text_box span:hover{
+    color: red;
+}
+
+#content9{
+    width: 100%;
+    height: 900px;
+    background-color: beige;
+}
+#con9_wrapper{
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 30px;
+}
+#content9 .header{
+    width: 100%;
+    height: 170px;
+    padding: 50px;
+}
+#content9 .con9_itembox{
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+    padding: 30px;
+}
+#content9 .con9_footer{
+    width: 100%;
+    height: 170px;
+    background-color: cadetblue;
+}
+
+#content9 .header_box{
+    width: 100%;
+    height: 70px;
+    border-left: 8px solid red;
+    padding-left: 20px;
+}
+#content9 .header_box h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+#content9 .header_box p{
+    font-size: 15px;
+}
+
+#content9 .con9_itembox_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: coral;
+}
+#content9 .con9_itembox_inner .l_box{
+    width: 48%;
+    height: 100%;
+    background-color: crimson;
+}
+#content9 .con9_itembox_inner .l_box .header{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid silver;
+    background-color: #fff;
+    padding: 0 0 5px 0;
+
+}
+#content9 .con9_itembox_inner .l_box .header p{
+    font-size: 15px;
+    color: silver;
+    font-weight: 600;
+}
+#content9 .con9_itembox_inner .r_box{
+    width: 48%;
+    height: 100%;
+    background-color: crimson;
+}
+#content9 .con9_itembox_inner .l_box .itembox{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: darkcyan;
+}
+#content9 .con9_itembox_inner .l_box .l_box_img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+/*footer =============================================================*/
+
+#footer{
+    width:100%; height:250px;
+    background-color:#000;
+}
+#footer_in{
+    margin:0 auto;
+    padding-top:25px;
+    box-sizing:border-box;
+    width:1200px; height:250px;
+}
+#footer_in .footer_up{
+    width:100%; height:40px;
+    display:flex; justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #fff;
+    padding-bottom:20px;
+    box-sizing:border-box;
+}
+#footer_in .footer_up .f_menu{
+    width:400px; 
+    margin-left:10px;
+    display:flex; justify-content:space-between;
+}
+#footer_in .f_menu li a{
+    font-size:12px; color:#fff; 
+    line-height:30px;
+}
+#footer_in .f_sns{
+    margin-right:10px;
+    display:flex; justify-content:space-between;
+    width:200px; height:auto;
+} 
+#footer_in .f_sns img{width:40px; height:40px;}
+#footer_in .footer_down{
+    width:100%; height:160px;
+    display:flex; justify-content:space-between;
+}
+#footer_in .footer_down .f_group .f_logo{
+    padding-top:25px;
+    box-sizing:border-box;
+    width:300px; height:100px;
+}
+#footer_in .footer_down .f_group address{
+    margin-left:10px;
+    padding-top:30px;
+    box-sizing:border-box;
+    width:500px;
+    color:#fff;
+    font-style:normal;
+}
+#footer_in .footer_down span{
+    position:relative;
+    margin-top:70px;
+    width:200px; height:40px;
+    border:1px solid #fff;
+    font-size:12px;
+    color:#fff;
+    padding:10px 0 0 10px;
+    font-weight:900;
+}
+#footer_in .footer_down span > a{
+    display:block;
+    font-size:12px; color:#fff;
+    position:absolute;
+    top:10px;
+    right:10px; 
+}

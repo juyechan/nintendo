@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>닌텐도 메인</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <!-- 메인 비디오 -->
+        <section id="main_video">
+            <video width="100%" height="auto" autoplay muted loop>
+                <source src="./image/main_video.mp4" type="video/mp4">
+            </video>
+            <!-- 헤더 --> 
+            <header class="header" id="header">
+                <div id="header_in">
+                    <div class="logo">
+                        
+                    </div>
+                    <nav class="nav">
+                        <ul class="main_menu">
+                            <li>
+                                <a class="main_btn" href="#">COMPANY</a>
+                                <ul class="sub_menu sub1">
+                                    <li><a href="#">회사 정보</a></li>
+                                    <li><a href="#">CSR 보고서</a></li>
+                                    <li><a href="#">채용</a></li>
+                                </ul>
+                            </li> 
+                            <li>
+                                <a class="main_btn" href="#">DEVICE</a>
+                                <ul class="sub_menu sub2">
+                                    <li><a href="./sub_index.html">Nintendo Switch</a></li>
+                                    <li><a href="#">Nintendo 3DS</a></li>
+                                    <li><a href="#">Nintendo 2DS</a></li>
+                                    <li><a href="#">주변기기</a></li>
+                                    <li><a href="#">디바이스 APPs</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="main_btn" href="#">GAME</a>
+                                <ul class="sub_menu sub3">
+                                    <li><a href="#">Switch 게임</a></li>
+                                    <li><a href="#">3DS 게임</a></li>
+                                    <li><a href="#">2DS 게임</a></li>
+                                    <li><a href="#">발매예정 게임</a></li>
+                                    <li><a href="#">게임 APPs</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="main_btn" href="#">MEDIA</a>
+                                <ul class="sub_menu sub4">
+                                    <li><a href="#">뉴스</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">SNS</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="main_btn" href="#">SUPPORT</a>
+                                <ul class="sub_menu sub5">
+                                    <li><a href="#">Switch 도움말</a></li>
+                                    <li><a href="#">3DS 도움말</a></li>
+                                    <li><a href="#">수리 관련 정보</a></li>
+                                    <li><a href="#">Nintendo Switch 온라인</a></li>
+                                    <li><a href="#">자주 묻는 질문</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="s_mn">
+                        <li><a class="cart" href="#"></a></li>
+                        <li><a class="mypage" href="#"></a></li>
+                        <li><a class="search" href="#"></a></li>
+                    </ul>
+                </div>                
+            </header>
+            <script src="./js/navSlide.js"></script>
+        </section>
+
+        <!-- 컨텐츠 -->
+        <section id="contents">
+            <!-- 뉴스 -->
+            <article id="news">
+                <h3>News</h3>
+                <div id="news_in">
+                    <div>
+                        <img src="./images/news1.png" alt="news1">
+                        <p class="news_title">
+                            『MONSTER HUNTER RISE: SUNBREAK』 6월 30일 발매!<br>
+                            새로운 정보가 공개되었습니다.
+                        </p>
+                        <p class="news_date">
+                            2022.05.11<br>
+                            Nintendo Switch
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/news2.png" alt="news2">
+                        <p class="news_title">
+                            Nintendo Switch 다운로드<br>
+                            소프트웨어 가정의 달 세일!
+                        </p>
+                        <p class="news_date">
+                            2022.05.10<br>
+                            Nintendo Switch
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/news3.png" alt="news3">
+                        <p class="news_title">
+                            『Nintendo Switch Sports』가 오늘 발매되었습니다.<br> 
+                            소개 페이지도 업데이트되었습니다.
+                        </p>
+                        <p class="news_date">
+                            2022.04.29<br>
+                            Nintendo Switch
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- 커리어 -->
+            <article id="career">
+                <h3>Careers</h3>
+                <div id="career_in">
+                    <div>
+                        <img src="./images/career1.jpg" width="100%" alt="">
+                        <h5>Get serious about fun</h5>
+                        <p>우리의 성공을 위해 어떤 직원들이 함께하고 있는지 알아보세요.</p>
+                    </div>
+                    <div>
+                        <img src="./images/career2.jpg" width="100%" alt="">
+                        <h5>Hi! we’re Nintendo.</h5>
+                        <p>우리가 어디에서 왔고, 어디로 가고 있는지에 대해 알아보세요.</p>
+                    </div>
+                </div>
+            </article>
+            <script>
+                $('#career_in > div').hover(
+                    function(){
+                        $(this).find('h5').css("textDecoration", "underline #666");
+                    },
+                    function(){
+                        $(this).find('h5').css("textDecoration", "none");
+                    }
+                )
+            </script>
+
+            <!-- 게임 -->
+            <article id="games">
+                <h3>NINTENDO GAMES</h3>
+                <div class="slide_wrapper">
+                    <ul class="slides">
+                        <li><p>젤다의 전설: 야생의 숨결</p><a href="#"><img src="./images/game1.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p>뉴 슈퍼마리오 브라더스 U 디럭스</p><a href="#"><img src="./images/game2.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p>링피트 어드벤쳐</p><a href="#"><img src="./images/game3.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p>마리오 카트8 디럭스</p><a href="#"><img src="./images/game4.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p>닌텐도 스위치 스포츠</p><a href="#"><img src="./images/game5.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p>모여봐요 동물의 숲</p><a href="#"><img src="./images/game6.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p>별의 커비 디스커버리</p><a href="#"><img src="./images/game7.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p>포켓몬 유나이트</p><a href="#"><img src="./images/game8.png" width="370px" height="300px" alt=""></a></li>
+                        <li><p></p><a href="#"><div class="more_btn">+</div></a></li>
+                    </ul>
+                </div>
+                <span class="prev controls"><</span>
+                <span class="next controls">></span>
+                <!-- 스크립트 -->
+                <script src="./js/gameSlide.js"></script>
+                <script>
+                    $(document).ready(function(){
+
+                        $('.slides > li').hover(
+                            function(){
+                                $(this).find('a').css("opacity", "0.6");
+                                $(this).find('p').css("opacity", "1");
+                            },
+                            function(){
+                                $(this).find('a').css("opacity", "1");
+                                $(this).find('p').css("opacity", "0");
+                            }
+                        );
+
+                    })
+                </script>
+            </article>
+
+
+            <!-- 디바이스 -->
+            <article id="devices">
+                <h3>DEVICES</h3>
+                <h1 class="device_logo">
+                    <img src="./images/device_logo.png" width="100%" alt="deviceLogo">
+                </h1>
+                <div id="device_in">
+                    <div class="device1">
+                        <img src="./images/device1.png" alt="device1">
+                        <a class="device_name name1" href="#">Nintendo Switch</a>
+                        <a class="device_info1" href="#"><img src="./images/device_info.png" alt=""></a>
+                    </div>
+                    <div class="device2">
+                        <img src="./images/device2.png" alt="device2">
+                        <a class="device_name name2" href="#">Nintendo Switch<br>OLED 모델</a>
+                        <a class="device_info2" href="#"><img src="./images/device_info.png" alt=""></a>
+                    </div>
+                    <img class="release_date" src="./images/release_date.png" alt="">
+                    <div class="device3">
+                        <img src="./images/device3.png" alt="device3">
+                        <a class="device_name name3" href="#">Nintendo Switch Lite</a>
+                        <a class="device_info3" href="#"><img src="./images/device_info.png" alt=""></a>
+                    </div>     
+                </div>
+            </article>
+            <!-- 배너 -->
+            <article id="banner">
+                <div id="banner_in">
+                    <a href="#"><img src="./images/banner1.png" width="330px" height=80px alt=""></a>
+                    <a href="#"><img src="./images/banner2.png" width="330px" height=80px alt=""></a>
+                    <a href="#"><img src="./images/banner3.png" width="330px" height=80px alt=""></a>
+                </div>
+            </article>
+        </section>
+        <footer id="footer">
+            <div id="footer_in">
+                <div class="footer_up">
+                    <ul class="f_menu">
+                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">문의하기</a></li>
+                        <li><a href="#">이용약관</a></li>
+                    </ul>
+                    <ul class="f_sns">
+                        <li><a href="#"><img src="./images/sns_youtube.png" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/sns_facebook.png" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/sns_insta.png" alt=""/></a></li>
+                        <li><a href="#"><img src="./images/sns_twit.png" alt=""/></a></li>
+                    </ul>
+                </div>
+                <div class="footer_down">
+                    <div class="f_group">
+                        <h1 class="f_logo"><img src="./images/logo3.png" width="100%" alt=""></h1>
+                        <address>
+                            ⓒ 2006 Nintendo of Korea Co., Ltd. All Rights Reserved.<br>
+                            상호명 : 한국닌텐도주식회사 대표자명 : 미우라 타카히로 사업자등록번호 : 120-87-03578
+                        </address>
+                    </div>
+                    <span>
+                        FAMILY SITE
+                        <a href="#">+</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
